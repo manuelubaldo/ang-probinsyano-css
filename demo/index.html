@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ang Probinsyano Demo</title>
+    <link href="../ang-probinsyano.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> 
+    <style type="text/css">
+    
+    body{
+        font-family: 'Open Sans', sans-serif;
+        background-color: #f3f3f3;
+        color: #414141;
+    }
+
+    .ang-probinsyano{
+        width: 400px;
+        height: 300px;
+    }
+    
+    .container{
+        max-width: 960px;
+        margin:0 auto;
+    }
+
+    .row {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .col{
+        flex:0 0 50%;
+    }
+
+    </style>
+
+</head>
+<body>
+    <div class="container">
+
+        <h3>Ang Probinsyano CSS Demo</h3>
+
+        <div class="row">
+            <div class="col">
+                <div class="ang-probinsyano">
+                    <div style="background-image: url('images/pexels-photo-297755.jpeg');width: 400px;height: 300px;"></div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="ang-probinsyano">
+                    <div style="background-image: url('images/pexels-photo-386009.jpeg');width: 400px;height: 300px;"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <p>
+                Images are from <a href="https://www.pexels.com">Pexels.com</a>
+            </p>
+        </div>
+    </div>
+</body>
+</html>

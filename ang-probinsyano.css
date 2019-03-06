@@ -1,0 +1,13 @@
+.ang-probinsyano{
+    overflow: hidden;
+}
+
+.ang-probinsyano > div{
+    background-size: cover;
+    background-position: center;
+    transition: 0.3s ease;
+}
+
+.ang-probinsyano > div:hover{
+    transform: scale(1.2);
+}
